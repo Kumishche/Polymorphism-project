@@ -8,7 +8,6 @@ private:
 	int length;
 
 public:
-	static int static_var;
 	Surfboard(const string& name, double length) :
 		SwimmingObject(name), length(length) {}
 	
